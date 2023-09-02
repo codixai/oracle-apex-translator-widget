@@ -1,0 +1,36 @@
+{
+    "name" : "APEX Translator Widget",
+    "version" : "1.0",
+    "description" : "Translator Widget allow you transalte your application to any language.",
+    "keywords" : ["Translator", "Google Translate"],
+    "homepage" : "https://github.com/codixai/oracle-apex-translator-widget",
+    "bugs" : {
+      "url" : "https://github.com/codixai/oracle-apex-translator-widget/issues",
+      "email" : "info@codix.ai"
+    },
+    "license" : "MIT",
+    "commercial" : "No",
+    "author" : {
+      "name" : "Abdallah Azmi",
+      "email" : "info@codix.ai",
+      "url" : "https://codix.ai/",
+      "twitter" : "Codixai",
+      "donationUrl" : "https://www.paypal.com/paypalme/bnazm/5"
+    },
+    "repository" : {
+      "type" : "git",
+      "url" : "https://github.com/codixai/oracle-apex-translator-widget.git"
+    },
+    "oracle" : {
+      "versions" : ["18.0.0", "19.0.0", "23.0.0"],
+      "apex" : {
+        "versions" : ["21.02", "22.01", "22.02", "23.01"],
+        "plugin" : {
+          "internalName" : "AI.CODIX.MAINTENANCE",
+          "type" : "dynamic action",
+          "demo" : "https://apex.oracle.com/pls/apex/r/codix/customers/login",
+          "previewImage" : "https://github.com/codixai/oracle-apex-translator-widget/assets/142397845/533d9f07-3a1c-42ec-8d6d-467ffe68ec21"
+        }
+      }
+    }
+  }
