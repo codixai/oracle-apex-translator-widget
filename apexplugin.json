@@ -26,7 +26,7 @@
       "apex" : {
         "versions" : ["21.02", "22.01", "22.02", "23.01"],
         "plugin" : {
-          "internalName" : "AI.CODIX.MAINTENANCE",
+          "internalName" : "AI.CODIX.TRANSLATOR",
           "type" : "dynamic action",
           "demo" : "https://apex.oracle.com/pls/apex/r/codix/customers/login",
           "previewImage" : "https://github.com/codixai/oracle-apex-translator-widget/assets/142397845/533d9f07-3a1c-42ec-8d6d-467ffe68ec21"
